@@ -65,7 +65,7 @@ const Contact = () => {
             Get in Touch
           </h2>             
         </div>
-        <div className='grid lg:grid-cols-3 gap-y-4 sm:grid-cols-1 md:grid-cols-2 lg:h-32 sm:h-32 bg-transparent cursor-pointer perspective justify-items-center'>
+        <div className='grid lg:grid-cols-3 gap-y-4 sm:grid-cols-1 md:grid-cols-2 lg:h-32 h-96 bg-transparent cursor-pointer perspective justify-items-center '>
         {contactInfo.map((feature, index) => (
           <div
             key={index}
