@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect, useRef } from 'react';
 import { projects } from '../constants';
-import Floating from './floating';
+import Floating from './Floating';
 
 gsap.registerPlugin(ScrollTrigger);
 
