@@ -71,20 +71,25 @@ const HeroSection = ({ onSelect }) => {
                     <span className='text-amber-500'>Developer</span>
                 </span>
             </h1>
-            <p className='mt-10 text-lg mb-10'>
-                Passionate about creating slick, responsive, and easy-to-use websites.<br/>
-                I specialize in using clear, modern code to bring website designs to life.
+            <p className='my-10 text-lg'>
+                I enjoy turning creative ideas into interactive, responsive websites.<br/>
+                Using clean code and modern frameworks, I bring designs to life with precision and style.
             </p>
 
              <button className='px-8 py-3 bg-amber-500 hover:bg-orange-500 to-orange-500 rounded-xl transition-all duration-300'
               onClick={() => {
-                console.log('Clicked!');
                 onSelect('projects');
               }}
 
              >
-                Check My projects 
+                View My Work 
               </button>
+              <a className='px-8 py-3 bg-amber-500 hover:bg-orange-500 to-orange-500 rounded-xl transition-all duration-300 block mt-6 justify-self-center w-fit'
+                  href='Lin Daaboul resume.pdf' 
+                  download='Lin-Daaboul-Resume.pdf'
+              >
+                Download Resume
+              </a>
 
         </div>
         

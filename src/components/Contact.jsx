@@ -60,12 +60,16 @@ const Contact = () => {
         ))}
       </div>
       <div className='max-w-6xl mx-auto'>
-        <div className='p-8 md:p-12'>
+        <div className='p-8 md:p-10'>
           <h2 className='text-2xl sm:text-5xl lg:text-6xl bg-gradient-to-r from-yellow-300 to-orange-500 text-transparent bg-clip-text mb-12 text-center'>
             Get in Touch
-          </h2>             
+          </h2> 
+          <p className='my-5 text-md text-center'>
+            Have a project in mind or just want to say hello?<br/> I’m always open to new opportunities and collaborations.
+          </p>            
         </div>
         <div className='grid lg:grid-cols-3 gap-y-4 sm:grid-cols-1 md:grid-cols-2 lg:h-32 h-96 bg-transparent cursor-pointer perspective justify-items-center '>
+          
         {contactInfo.map((feature, index) => (
           <div
             key={index}
