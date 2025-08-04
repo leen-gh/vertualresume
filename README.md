@@ -12,7 +12,6 @@ This project showcases my work, skills, and web development experience in a mode
 - Clean, modern UI with smooth interactions
 - Responsive design for desktop and mobile
 - Projects section with live demos and GitHub links
-- Contact form with a polished layout
 - Built using Vite + React + TailwindCSS
 
 ---
